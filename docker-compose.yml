@@ -1,0 +1,7 @@
+version: "3.3"
+   
+services:
+  dgbb:
+    build: .
+    command: python main.py
+    restart: on-failure
